@@ -2,7 +2,10 @@
 #include "gcd.hpp"
 
 int main() {
-    std::cout << "gcd: " << gcd(19, 19) << std::endl;
+    int a, b;
+    std::cout << "Enter two positive integers: " << std::endl;
+    std::cin >> a >> b;
+    std::cout << "greatest cd: " << gcd(a, b) << std::endl;
     return 0;
 }
 
